@@ -1,0 +1,67 @@
+@import "./mixin";
+
+.ulFormato {
+    justify-content: end;
+  }
+  
+  .navbarFormato {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Estilos para el contenedor del encabezado*/
+  
+  .headerContainercolor {
+    background-color: #ecd7c8;
+  }
+  
+  /* Estilos para el nombre del logotipo*/
+  
+  .navbar-light {
+    .navbar-brand.logoName {
+      @include condicional ($brand-color);
+      padding-left: 0.5rem;
+    }
+  
+    .navbar-nav .nav-link.liFormat {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: center;
+      font-weight: bold;
+      padding: 0.7em 2em;
+      border: 3px solid #ff0072;
+      border-radius: 2px;
+      position: relative;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+      color: #ff0072;
+      z-index: 1;
+  
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: '';
+        background-color: #ff0072;
+        z-index: -1;
+      }
+  
+      &:hover, &:focus {
+        color: white;
+      }
+  
+      &:hover:before, &:focus:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+      }
+  
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+  }

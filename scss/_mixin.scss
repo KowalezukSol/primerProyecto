@@ -1,0 +1,13 @@
+@mixin condicional ($color) {
+    color: ($color);
+
+    @if $color == $brand-color {
+        font-weight: bold;
+        font-family: $tipografia-general;
+    }
+
+    @else if $color == $title-main {
+        font-weight: bold;
+        font-family: $tipografia-general;
+    }
+}

@@ -1,0 +1,16 @@
+/* FOOTER */
+
+footer {
+    font-family: $tipografia-general;
+  
+    .text-white {
+      text-decoration: none;
+    }
+  }
+  
+  .footerCart {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,31 @@
+/* Estilos para el contenedor de "nosotros" */
+
+.nosotrosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos para los títulos de "nosotros" */
+  
+  .nosotrosTitles {
+    font-family: $tipografia-general;
+    font-size: 1.7rem;
+  }
+  
+  /* Estilos para la presentación de "nosotros" */
+  
+  .nosotrosPresentation {
+    font-family: $tipografia-general;
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+  
+  /* Estilos para el iframe de "nosotros" */
+  
+  .nosotrosIframe {
+    padding: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  

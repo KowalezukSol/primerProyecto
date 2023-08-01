@@ -1,0 +1,87 @@
+/* Establece la altura del elemento HTML al 100% */
+
+html {
+    height: 100%;
+  }
+  
+  /* Estilos generales para el cuerpo */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  
+    /* Establece la altura mínima del cuerpo al 100% */
+  }
+  
+  /* Estilos generales para todos los elementos */
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* Estilos para el subtítulo */
+
+.subtitulo {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #d7a19d;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+  }
+
+  /* Estilos para el movimiento del marquesina */
+
+.marqueeMoving {
+    width: 100%;
+    behavior: "alternate";
+  }
+
+/* Estilos para el eslogan */
+
+.slogan {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #e6c8b7;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+  }
+  
+  
+  
+  
+  
+  .card {
+    &.cardFormato {
+      border-radius: 50px;
+      background: #e0e0e0;
+      box-shadow: 15px 15px 30px #bebebe;
+    }
+  
+    width: 22rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn.btn-primary.botonComprar {
+    background-color: #ff0072;
+    border-color: #ff0072;
+  }
+  
+  
+  
+  
